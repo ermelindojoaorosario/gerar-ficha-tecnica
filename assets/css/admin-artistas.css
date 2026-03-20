@@ -1,0 +1,30 @@
+#mozbeats-artistas-grid{
+display:grid;
+grid-template-columns:repeat(auto-fill,minmax(220px,1fr));
+gap:20px;
+margin-top:20px;
+}
+
+.mozbeats-artista-card{
+background:#fff;
+border:1px solid #ddd;
+border-radius:10px;
+padding:20px;
+box-shadow:0 2px 6px rgba(0,0,0,0.05);
+transition:0.2s;
+}
+
+.mozbeats-artista-card:hover{
+transform:translateY(-3px);
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.mozbeats-artista-card h3{
+margin-top:0;
+font-size:18px;
+}
+
+.mozbeats-artista-card p{
+color:#666;
+margin-bottom:10px;
+}
